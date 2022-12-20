@@ -1,0 +1,15 @@
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\bin\Debug\net6.0\DictionaryVoornaam.exe
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\bin\Debug\net6.0\DictionaryVoornaam.deps.json
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\bin\Debug\net6.0\DictionaryVoornaam.runtimeconfig.json
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\bin\Debug\net6.0\DictionaryVoornaam.dll
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\bin\Debug\net6.0\DictionaryVoornaam.pdb
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.csproj.AssemblyReference.cache
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.AssemblyInfoInputs.cache
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.AssemblyInfo.cs
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.csproj.CoreCompileInputs.cache
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.dll
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\refint\DictionaryVoornaam.dll
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.pdb
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\DictionaryVoornaam.genruntimeconfig.cache
+D:\Software Developer\schooljaar_2022-2023\periode2\tts_rik\DictionaryVoornaam\dictionary_albert\obj\Debug\net6.0\ref\DictionaryVoornaam.dll
