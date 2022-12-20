@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Software Developer\\schooljaar_2022-2023\\periode2\\tts_rik\\DictionaryVoornaam\\dictionary_albert\\dictionary_albert.csproj": {}
+    "D:\\GitHub\\TeamWebsite\\css\\TextAdventure\\dictionary_albert\\dictionary_albert.csproj": {}
   },
   "projects": {
-    "D:\\Software Developer\\schooljaar_2022-2023\\periode2\\tts_rik\\DictionaryVoornaam\\dictionary_albert\\dictionary_albert.csproj": {
+    "D:\\GitHub\\TeamWebsite\\css\\TextAdventure\\dictionary_albert\\dictionary_albert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software Developer\\schooljaar_2022-2023\\periode2\\tts_rik\\DictionaryVoornaam\\dictionary_albert\\dictionary_albert.csproj",
+        "projectUniqueName": "D:\\GitHub\\TeamWebsite\\css\\TextAdventure\\dictionary_albert\\dictionary_albert.csproj",
         "projectName": "dictionary_albert",
-        "projectPath": "D:\\Software Developer\\schooljaar_2022-2023\\periode2\\tts_rik\\DictionaryVoornaam\\dictionary_albert\\dictionary_albert.csproj",
+        "projectPath": "D:\\GitHub\\TeamWebsite\\css\\TextAdventure\\dictionary_albert\\dictionary_albert.csproj",
         "packagesPath": "C:\\Users\\babui\\.nuget\\packages\\",
-        "outputPath": "D:\\Software Developer\\schooljaar_2022-2023\\periode2\\tts_rik\\DictionaryVoornaam\\dictionary_albert\\obj\\",
+        "outputPath": "D:\\GitHub\\TeamWebsite\\css\\TextAdventure\\dictionary_albert\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\babui\\AppData\\Roaming\\NuGet\\NuGet.Config",
