@@ -44,5 +44,5 @@ namespace Zuul
             return (health > 0);
         }
 
-    }
+        }
 }
