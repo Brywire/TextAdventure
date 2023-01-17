@@ -40,8 +40,9 @@ namespace Zuul
 
             office.AddExit("west", lab);
 
-            Item oldComputerItem = new Item(25, "An old computer");
-            office.Chest.Put("computer", oldComputerItem);
+            //Create the items
+            office.Chest.Put("computer", new Item(25, "An old Computer"));
+            
 
             boiler.AddExit("up", lab);
             player.CurrentRoom = outside;  // start game outside
