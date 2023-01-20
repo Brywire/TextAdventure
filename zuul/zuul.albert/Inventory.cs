@@ -28,7 +28,9 @@ namespace Zuul
         }
 
         //Show function
-
+        // - Checken of je inventory leeg is
+        // - Checken welke items erin zitten 
+        // - Lijst printen met /n
 
         //IsEmpty function for Show
 
