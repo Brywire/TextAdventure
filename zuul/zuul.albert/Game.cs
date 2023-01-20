@@ -41,7 +41,10 @@ namespace Zuul
             office.AddExit("west", lab);
 
             //Create the items
-            office.Chest.Put("computer", new Item(25, "An old Computer"));
+            boiler.Chest.Put("katana", new Item(20, "A sharp katana"));
+            lab.Chest.Put("medkit", new Item(10, "To heal your wounds"));
+            office.Chest.Put("pistol", new Item(20, "A pistol ready to shoot"));
+            pub.Chest.Put("lollypop", new Item(1, "A yummy lollypop"));
             
 
             boiler.AddExit("up", lab);
