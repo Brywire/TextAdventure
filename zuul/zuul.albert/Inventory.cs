@@ -17,6 +17,8 @@ namespace Zuul
             this.maxWeight = m;
             this.items = new Dictionary<string, Item>();
         }
+
+        // Put function
         public bool Put(string itemName, Item item)
         {
             if (TotalWeight() + item.Weight > maxWeight)
@@ -28,12 +30,25 @@ namespace Zuul
         }
 
         //Show function
-        // - Checken of je inventory leeg is
-        // - Checken welke items erin zitten 
-        // - Lijst printen met /n
+        public string Show()
+        {
+            string str = "";
+            if (!IsEmpty())
+            {
+                foreach (string itemName in items.Keys)
+                {
+                    Item item = items[itemName];
+                    str += " - " + itemName + ": " + item.Description + " (" + item.Weight + "kg`\n";
+                }
+            }
+            return str;
+        }
 
         //IsEmpty function for Show
-
+        public bool IsEmpty()
+        {
+            return items.Count == 0;
+        }
 
         //Total Weight function
         public int TotalWeight()
@@ -46,6 +61,7 @@ namespace Zuul
             return total;
         }
 
+        // Get function
         public Item Get(string itemName)
         {
             if (items.ContainsKey(itemName))
