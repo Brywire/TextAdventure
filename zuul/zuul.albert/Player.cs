@@ -44,5 +44,39 @@ namespace Zuul
             return (health > 0);
         }
 
+        // Take from chest function
+        public bool TakeFromChest(string itemName)
+        {
+            Item item = CurrentRoom.Chest.Get(itemName);
+            if (item == null) 
+            {
+                Console.WriteLine("There is no" + itemName + "in this room");
+                return false;
+            }
+
+            if(Backpack.Put(itemName, item))
+            {
+                return true;
+            }
+
+            Console.WriteLine(itemName + "You are unable to carry");
+            CurrentRoom.Chest.Put(itemName, item);
+            return true;
         }
+        
+        // Drop to chest function
+        public bool DropToChest(string itemName)
+        {
+            Item item = CurrentRoom.Chest.Get(itemName);
+            if (item == null)
+            {
+                Console.WriteLine("You don't have " + itemName +  ".");
+                return false;
+            }
+
+            Console.WriteLine("You've dropped " + itemName + ".");
+            CurrentRoom.Chest.Put(itemName, item);
+            return true;
+        }
+    }
 }
