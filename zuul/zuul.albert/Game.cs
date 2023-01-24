@@ -114,14 +114,24 @@ namespace Zuul
                 case "help":
                     PrintHelp();
                     break;
+
                 case "go":
                     GoRoom(command);
                     break;
+
                 case "quit":
                     wantToQuit = true;
                     break;
+
                 case "look":
                     Console.WriteLine(player.CurrentRoom.GetLongDescription());
+                    break;
+
+                case "take":
+
+                    break;
+
+                case "drop":
                     break;
             }
 

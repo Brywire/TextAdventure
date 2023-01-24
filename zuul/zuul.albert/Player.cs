@@ -50,7 +50,7 @@ namespace Zuul
             Item item = CurrentRoom.Chest.Get(itemName);
             if (item == null) 
             {
-                Console.WriteLine("There is no" + itemName + "in this room");
+                Console.WriteLine("There is no " + itemName + "in this room");
                 return false;
             }
 
@@ -59,7 +59,7 @@ namespace Zuul
                 return true;
             }
 
-            Console.WriteLine(itemName + "You are unable to carry");
+            Console.WriteLine("You are unable to carry " + itemName);
             CurrentRoom.Chest.Put(itemName, item);
             return true;
         }
