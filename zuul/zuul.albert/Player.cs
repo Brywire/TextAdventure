@@ -26,6 +26,7 @@ namespace Zuul
         {
             CurrentRoom = null;
             health = 100;
+            Backpack = new Inventory(30);
         }
 
         //Methods
@@ -50,12 +51,13 @@ namespace Zuul
             Item item = CurrentRoom.Chest.Get(itemName);
             if (item == null) 
             {
-                Console.WriteLine("There is no " + itemName + "in this room");
+                Console.WriteLine("There is no " + itemName + " in this room");
                 return false;
             }
 
             if(Backpack.Put(itemName, item))
             {
+                Console.WriteLine("You've successfully picked up " + itemName);
                 return true;
             }
 
@@ -67,15 +69,15 @@ namespace Zuul
         // Drop to chest function
         public bool DropToChest(string itemName)
         {
-            Item item = CurrentRoom.Chest.Get(itemName);
+            Item item = Backpack.Get(itemName);
             if (item == null)
             {
                 Console.WriteLine("You don't have " + itemName +  ".");
                 return false;
             }
 
-            Console.WriteLine("You've dropped " + itemName + ".");
             CurrentRoom.Chest.Put(itemName, item);
+            Console.WriteLine("You've dropped " + itemName + ".");
             return true;
         }
     }

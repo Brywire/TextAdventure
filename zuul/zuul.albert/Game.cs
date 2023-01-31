@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Zuul
 {
@@ -128,10 +129,15 @@ namespace Zuul
                     break;
 
                 case "take":
-
+                    Take(command);
                     break;
 
                 case "drop":
+                    Drop(command);
+                    break;
+
+                case "inventory":
+                    Console.WriteLine("Items in your inventory:\n" + player.Backpack.Show());
                     break;
             }
 
@@ -182,6 +188,32 @@ namespace Zuul
                 Console.WriteLine(player.CurrentRoom.GetLongDescription());
                 Console.WriteLine("Your current health: " + player.Health);
             }
+
+
+        }
+
+        //Take & Drop commands implemented into game.
+        private void Take(Command command)
+        {
+            if (!command.HasSecondWord())
+            {
+                Console.WriteLine("Take what?");
+                return;
+            }
+            
+            string theNameOfTheItem = command.GetSecondWord();
+            player.TakeFromChest(theNameOfTheItem);
+        }
+        private void Drop(Command command)
+        {
+            if (!command.HasSecondWord())
+            {
+                Console.WriteLine("Drop what?");
+                return;
+            }
+
+            string theNameOfTheItem = command.GetSecondWord();
+            player.DropToChest(theNameOfTheItem);
         }
 
     }

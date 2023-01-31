@@ -38,7 +38,7 @@ namespace Zuul
                 foreach (string itemName in items.Keys)
                 {
                     Item item = items[itemName];
-                    str += " - " + itemName + ": " + item.Description + " (" + item.Weight + "kg`\n";
+                    str += " - " + itemName + ": " + item.Description + " (" + item.Weight + "kg)\n";
                 }
             }
             return str;

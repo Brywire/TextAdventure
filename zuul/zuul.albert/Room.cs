@@ -14,11 +14,7 @@ namespace Zuul
         {
             get { return chest; }
         }
-        public Room()
-        {
-            // a Room can handle a big Inventory.
-            chest = new Inventory(999999);
-        }
+        
    
 		/**
 		 * Create a room described "description". Initially, it has no exits.
@@ -27,7 +23,8 @@ namespace Zuul
 		 */
 		public Room(string desc)
 		{
-			description = desc;
+            chest = new Inventory(999999);
+            description = desc;
 			exits = new Dictionary<string, Room>();
 		}
 
@@ -59,6 +56,9 @@ namespace Zuul
 			str += description;
 			str += ".\n";
 			str += GetExitString();
+			str += ".\n";
+			str += "Items in the room:\n";
+			str += chest.Show();
 			return str;
 		}
 
